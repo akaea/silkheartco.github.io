@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Silk Heart Co.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/Menu -->
+<nav class="w3-sidebar w3-pale-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft w3-pale-red" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Silk<br>Heart Co. <br>From Silk<br>to Your Heart </b></h3>
+</div>
+  <div class="w3-bar-block">
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Homepage</a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Scarves</a>
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Event</a>
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers </a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact Us</a>
+  </div>
+<br>
+<br>
+<br>
+<br>
+From Silk to Your Heart </br>
+</div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-pale-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-pale-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>SH.Co</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large " onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !Page Content -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+<!-- Manual Slideshow -->
+<body>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="C:/Users/User/Desktop/HTML/six.png" style="width:100%">
+  <img class="mySlides" src="C:/Users/User/Desktop/HTML/one.jpg" style="width:100%">
+  <img class="mySlides" src="C:/Users/User/Desktop/HTML/two.png" style="width:100%">
+  <img class="mySlides" src="C:/Users/User/Desktop/HTML/three.png" style="width:100%">
+  <img class="mySlides" src="C:/Users/User/Desktop/HTML/four.png" style="width:100%">
+  <img class="mySlides" src="C:/Users/User/Desktop/HTML/five.png" style="width:100%">
+  
+  <p style="font-size:19px; text-align: center" class="w3-panel w3-pale-red ">From the river to the sea , Palestine will be free </p>
+	
+
+  <button class="w3-button w3-pale-red w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-pale-red w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
+
+  <!-- Homepage -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo" style="color: #000000;"><b>Homepage</b></h1>
+    <h1 class="w3-xxxlarge" style="color: 	#ffcccc;"> <b>About Us</b></h1>
+   
+	<img src="C:/Users/User/Desktop/HTML/SH Logo.png" alt="Smiley face" style="float:left;width:190px;height:190px;">
+	<p style="font-size:19px;">Silk Heart Company specializes in offering a wide variety of high-quality silks hijabs to our main customers which is women. Our business was based on Selangor Darul Ehsan. The main reason why our company chose silk as the main fabric is because of its luxurious feel, comfort and timeless elegance. The other reason why silk became our main fabric because of lightweight and breathable while ensuring comfort throughout the day. By using silk, we aim to provide a high-quality hijab that not only looks beautiful but also offers superior comfort and practicality for everyday wear. </p>
+	<h1 class="w3-xxxlarge" style="color: 	#ffcccc;"> <b> Vision </b></h1>
+	<p style="font-size:19px;">Become a leading brand in the hijab industry, known for our commitment to elegance, comfort and innovation </p>
+	<h1 class="w3-xxxlarge" style="color: 	#ffcccc;"><b>Mission</b></h1>
+	<p style="font-size:19px;">Provide exquisitely crafted silk hijab that empower women to express their individual while honoring their cultural heritage </p>
+	<h1 class="w3-xxxlarge" style="color: 	#ffcccc;"><b>Objectives</b></h1>
+	<p style="font-size:19px;"> Achieve the highest levels of customer satisfaction throughout exceptional products and outstanding service and continually expanding our range to meet the evolving needs of our client </p>
+ </div>
+  
+
+  <!-- Scarves 1 -->
+   <div class="w3-container" style="margin-top:80px" id="services">
+    <h1 class="w3-jumbo"><b>Scarves</b></h1>
+  <div class="w3-container" id="services" style="margin-top:10px">
+    <h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Our Collection</b></h1>
+    
+   <p style="font-size:21px;"> Welcome to a world of timeless beauty with Silk Heart</p>
+	
+	<h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Ribbon Collection</b></h1>
+   
+	
+  <!-- Ribbon Collection -->
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 10px;
+        }
+        .image-container img {
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="C:/Users/User/Desktop/HTML/Ribbon Collection Blue.png"  onclick="onClick(this)" alt="Kind">
+		<p> Ribbon in Kind <br> RM79 </p> 
+        <img src="C:/Users/User/Desktop/HTML/Ribbon Collection Cream.png"  onclick="onClick(this)" alt="Caring">
+		<p> Ribbon in Caring <br> RM79 </p> 
+        <img src="C:/Users/User/Desktop/HTML/Ribbon Collection Pink.png"  onclick="onClick(this)" alt="Love">
+		<p> Ribbon in Love <br> RM79 </p> 
+		<img src="C:/Users/User/Desktop/HTML/Ribbon Collection Green.png"  onclick="onClick(this)" alt="Courage">
+		<p> Ribbon in Courage <br> RM79 </p> 
+		
+		</div>
+		</div>
+		</div>
+		 
+		 <!-- Scarves 2 -->
+		<div class="w3-container" id="services" style="margin-top:80px">
+		<h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Monogram Collection</b></h1>
+	
+	<!-- Monogram Collection -->
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 10px;
+        }
+        .image-container img {
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="C:/Users/User/Desktop/HTML/Monogram Collection Green.png"  onclick="onClick(this)" alt="Green">
+		<p> Monogram<br>Green <br> RM89 </p> 
+        <img src="C:/Users/User/Desktop/HTML/Monogram Collection White.png"  onclick="onClick(this)" alt="White">
+		<p> Monogram<br>White <br> RM89 </p> 
+        <img src="C:/Users/User/Desktop/HTML/Monogram Collection Cream.png"  onclick="onClick(this)" alt="Cream">
+		<p> Monogram<br>Peach <br> RM89 </p> 
+		<img src="C:/Users/User/Desktop/HTML/Monogram Collection Pink.png"  onclick="onClick(this)" alt="Pink">
+		<p> Monogram<br>Pink <br> RM89 </p> 
+    </div>
+
+  <!-- Scarves 3 -->
+  <div class="w3-container" id="services" style="margin-top:80px">
+		<h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Echo Collection </b></h1>
+     </div>
+	
+	<!-- Echo Collection -->
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 10px;
+        }
+        .image-container img {
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="C:/Users/User/Desktop/HTML/Echo Collection Purple.png"  onclick="onClick(this)" alt="Purple">
+		<p> Echo in  <br> Pistachio <br> RM89 </p> 
+        <img src="C:/Users/User/Desktop/HTML/Echo Collection Crayola.png"  onclick="onClick(this)" alt="Crayola">
+		<p> Echo in  <br> Crayola <br> RM89 </p> 
+        <img src="C:/Users/User/Desktop/HTML/Echo Collection Pink.png"  onclick="onClick(this)" alt="Pink">
+		<p> Echo in  <br> Pinkness <br> RM89 </p> 
+		<img src="C:/Users/User/Desktop/HTML/Echo Collection Night.png"  onclick="onClick(this)" alt="Night">
+		<p> Echo in <br>  Night <br> RM89 </p> 
+    </div>
+
+
+
+  <!-- Event --> 
+  
+   <div class="w3-container" style="margin-top:80px" id="designers">
+   <h1 class="w3-jumbo"><b>Event</b></h1>
+
+	<div class="w3-container" id="designers" style="margin-top:10px">
+    <h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Malaysia Batik Day w SH Co.</b></h1>
+
+  
+ 
+     <p style="font-size:20px;">Join us for a vibrant celebration of culture , tradition , and elegance at our Malaysia Batik Day<br>event !<br> Hosted by Silk Heart , this special occasion is dedicated to honoring the rich heritage of Malaysian batik and showcasing its timeless beauty through our Malaysia Batik Collection
+	<p style="font-size:20px;"><b>Date : 03 December 2024</b></p>
+	<p style="font-size:20px;"><b>Time : 10:00 am - 4:00 pm</b></p>
+	<p style="font-size:20px;"><b>Location : The Barn , Tamarind Square Cyberjaya</b></p>
+ 
+
+
+<!-- Flyer and Brochure -->
+  <div class="w3-container" id="designers" style="margin-top:10px">
+    <h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Flyer and Brochure</b></h1>
+   
+   <div class="w3-container">
+       
+    
+        <img src="C:/Users/User/Desktop/HTML/Flyer Malaysian Batik Day Event.png" style="width:50%"> 
+        <div class="w3-container ">
+		 
+
+        <img src="C:/Users/User/Desktop/HTML/Brochure 1.png" style="width:70%">
+        <div class="w3-container">
+  
+       
+        <img src="C:/Users/User/Desktop/HTML/Brochure 2.png" style="width:70%">
+		 <div class="w3-container">
+	</div>
+	</div>
+	</div>
+	
+  <div class="w3-container" id="services" style="margin-top:80px">
+		<h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Malaysia Batik Floral Collection</b></h1>
+		</div>
+		</div>
+		</div>
+	
+			<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 10px;
+        }
+        .image-container img {
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="C:/Users/User/Desktop/HTML/Batik Black.png"  onclick="onClick(this)" alt="Black">
+		<p> Batik Floral<br> in Ebony <br> RM120 </p> 
+        <img src="C:/Users/User/Desktop/HTML/Batik Dusty Rose.png"  onclick="onClick(this)" alt="Rose">
+		<p> Batik Floral<br>in Dusty Rose <br> RM120 </p> 
+        <img src="C:/Users/User/Desktop/HTML/Batik Maroon.png"  onclick="onClick(this)" alt="Maroon">
+		<p> Batik Floral<br> in Maroon <br> RM120 </p> 
+		<img src="C:/Users/User/Desktop/HTML/Batik Powder Blue.png"  onclick="onClick(this)" alt="Blue">
+		<p> Batik Floral<br> in Powder Blue <br> RM120 </p> 
+		<img src="C:/Users/User/Desktop/HTML/Batik Soft Gold.png"  onclick="onClick(this)" alt="Gold">
+		<p> Batik Floral<br>in Soft Gold <br> RM120 </p> 
+		<img src="C:/Users/User/Desktop/HTML/Batik Blue Black.png"  onclick="onClick(this)" alt="Blue">
+		<p> Batik Floral<br> in Blueblack <br> RM120 </p> 
+	</div>
+	</div>
+	</div>
+	
+	<div class="w3-container" id="services" style="margin-top:80px">
+		<h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Our Gift to You</b></h1>
+        
+		<p style="font-size:19px;">In honor of Malaysia Batik Day , we’re excited to give you a special free gift with your purchase<br>Enhance your style with Hijab Ring and Scarf, on us.
+		
+			<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 10px;
+        }
+        .image-container img {
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="C:/Users/User/Desktop/HTML/Hijab Ring.png"  onclick="onClick(this)" alt="Black">
+        <img src="C:/Users/User/Desktop/HTML/Scarf.png"  onclick="onClick(this)" alt="Rose">
+		
+    </div>
+	</div>
+	</div>
+
+  <!-- Designers -->
+    <div class="w3-container" style="margin-top:80px" id="packages">
+    <h1 class="w3-jumbo"><b>Designers</b></h1>
+  <div class="w3-container" id="packages" style="margin-top:10px">
+    <h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Meet Our Artisans</b></h1>
+   
+    <p style="font-size:19px;">We take pride in our designers’ ability to transform silk into wearable art<br>Their expertise and creativity make Silk Heart’s Malaysia Batik Floral Collection a symbol of elegance and sophistication ! </p>
+  </div>
+  
+  	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 10px;
+        }
+        .image-container img {
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="C:/Users/User/Desktop/HTML/Designers Madi.png"  onclick="onClick(this)" alt="Black">
+        <img src="C:/Users/User/Desktop/HTML/Designers Mimi.png"  onclick="onClick(this)" alt="Rose" ><b><img src="C:/Users/User/Desktop/HTML/Designers Put.png"  onclick="onClick(this)" alt="Maroon">
+		<img src="C:/Users/User/Desktop/HTML/Designers Ria.png"  onclick="onClick(this)" alt="Blue">
+		
+    </div>
+
+ <!-- Contact Us -->
+
+  <div class="w3-container" style="margin-top:80px" id="contact">
+    <h1 class="w3-jumbo"><b>Contact Us</b></h1>
+	 <div class="w3-container" id="packages" style="margin-top:10px">
+    <h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>How Can We Assist You ?</b></h1>
+    
+	<p style="font-size:18px;">Whether you have inquiries about our collections , need help with your order or want to share your experience<br>Our team is ready to assist you !</p>
+    <h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Customer Services</b></h1>
+    
+	<p style="font-size:18px;">Office : 03-4144 1377<br>Monday to Friday<br>9:00 am - 6:00 pm</p>
+	<h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Address</b></h1>
+    
+	<p style="font-size:18px;">C-04-01,<br>Level 4, Block C, <br>Tamarind Square,<br>Persiaran Multimedia, 63000 Cyberjaya,<br>Selangor</p>
+	 
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 10px;
+        }
+        .image-container img {
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+	<img src="C:/Users/User/Desktop/HTML/office sitemap.png"  onclick="onClick(this)" >
+	<img src="C:/Users/User/Desktop/HTML/office layout.png"  onclick="onClick(this)" >
+
+ </div>
+</body>
+</html>
+ <div class="w3-container" id="packages" style="margin-top:10px">
+    <h1 class="w3-xxxlarge" style="color:#FFC0CB;"><b>Message</b></h1>
+   
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Note</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-pale-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+  <!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-pale-red w3-container w3-padding-32" style="margin-top:75px;padding-left:58px"><p class="w3-left"><b>Terms & Policy</b><br>Refund, Returns & Exchange Policy<br>Shipping Information<br>Terms of Service</p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+</body>
+</html>
